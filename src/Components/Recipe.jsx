@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
 import { FaFireFlameCurved, FaRegClock } from "react-icons/fa6";
 
-const Recipe = ({recipe}) => {
-    console.log(recipe);
-    const {recipe_name, short_description, recipe_image, preparing_time, ingredients, recipe_id, calories} = recipe;
+const Recipe = ({recipe ,wantToCook}) => {
+    // console.log(recipe, "recipe object");
+    const {recipe_name, short_description, recipe_image, preparing_time, ingredients, calories} = recipe;
     return (
-        <div className="card max-w-96 mx-auto p-5 text-start  shadow-lg">
+        <div className="card max-w-96 mx-auto p-5 text-start  shadow-lg border-[1px]">
             <figure><img className='rounded-2xl w-full max-h-48 md:h-52 bg-center' src={recipe_image} alt="Shoes" /></figure>
             <div className="pt-6">
                 <h2 className="card-title">{recipe_name}</h2>
@@ -27,7 +27,7 @@ const Recipe = ({recipe}) => {
                         {calories} calories</p>
                 </div>
                 <div className="card-actions justify-start">
-                <button className="btn bg-green-400 rounded-[50px] text-lg font-medium px-6">Want to cook</button>
+                <button onClick={() => wantToCook(recipe)} className="btn bg-green-400 rounded-[50px] text-lg font-medium px-6 hover:bg-transparent hover:border-green-500">Want to Cook</button>
                 </div>
             </div>
         </div>
@@ -35,7 +35,8 @@ const Recipe = ({recipe}) => {
 };
 
 Recipe.propTypes = {
-    recipe: PropTypes.object.isRequired
+    recipe: PropTypes.object.isRequired,
+    wantToCook: PropTypes.func
 }
 
 export default Recipe;
