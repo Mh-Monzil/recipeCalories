@@ -1,3 +1,4 @@
+import { ToastContainer } from "react-toastify";
 import Banner from "./Components/Banner";
 import Navbar from "./Components/Navbar";
 import Recipes from "./Components/Recipes";
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar></Navbar>
       <Banner></Banner>
       <Recipes></Recipes>
+      <ToastContainer theme="dark" />
     </div>
   );
 };

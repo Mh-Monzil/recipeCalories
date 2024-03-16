@@ -9,8 +9,8 @@ const Recipe = ({recipe ,wantToCook}) => {
             <figure><img className='rounded-2xl w-full max-h-48 md:h-52 bg-center' src={recipe_image} alt="Shoes" /></figure>
             <div className="pt-6">
                 <h2 className="card-title">{recipe_name}</h2>
-                <p className='pt-3 pb-5 border-b-[1px] border-gray-200 text-[#878787]'>{short_description}</p>
-                <div className='py-6 border-b-[1px] border-gray-200'>
+                <p className='pt-3 pb-5 border-b-[1px] border-gray-200 text-[#878787] h-24'>{short_description}</p>
+                <div className='py-6 border-b-[1px] border-gray-200 h-52'>
                     <p className='text-lg font-medium'>Ingredients: {ingredients.length}</p>
                     <ul className='list-disc pl-7 pt-4 text-[#878787]'> 
                         {
@@ -19,15 +19,15 @@ const Recipe = ({recipe ,wantToCook}) => {
                     </ul>
                 </div>
                 <div className='flex justify-start gap-7 py-6'>
-                    <p className='flex items-center gap-3'>
+                    <p className='flex flex-col md:flex-row items-center gap-3'>
                         <span><FaRegClock /></span>
                         {preparing_time} minutes</p>
-                    <p className='flex items-center gap-3'>
+                    <p className='flex flex-col md:flex-row items-center gap-3'>
                         <span><FaFireFlameCurved /></span>
                         {calories} calories</p>
                 </div>
-                <div className="card-actions justify-start">
-                <button onClick={() => wantToCook(recipe)} className="btn bg-green-400 rounded-[50px] text-lg font-medium px-6 hover:bg-transparent hover:border-green-500">Want to Cook</button>
+                <div className="card-actions flex justify-center items-end mb-auto">
+                    <button onClick={() => wantToCook(recipe)} className="btn bg-green-400 rounded-[50px] text-lg font-medium px-6 hover:bg-transparent hover:border-green-500">Want to Cook</button>
                 </div>
             </div>
         </div>
