@@ -4,7 +4,7 @@ import Recipes from "./Components/Recipes";
 
 const App = () => {
   return (
-    <div className="max-w-[1320px] mx-auto">
+    <div className="max-w-[1320px] mx-auto p-4">
       <Navbar></Navbar>
       <Banner></Banner>
       <Recipes></Recipes>

@@ -1,6 +1,6 @@
 [
         {
-            "recipe_image": "chicken_stir_fry.jpg",
+            "recipe_image": "https://img.freepik.com/free-photo/stir-fry-chicken-sweet-peppers-green-beans_2829-20109.jpg?w=1380&t=st=1710549599~exp=1710550199~hmac=cfd6f1a39e785535aedb4337b195d1be82cfb40523035cf2fea15e44160675ed",
             "recipe_id": 1,
             "recipe_name": "Chicken Stir Fry",
             "short_description": "A quick and easy stir-fry recipe that's perfect for weeknight dinners.",
@@ -10,11 +10,11 @@
                 "200 g basil leaf",
                 "400 g mushroom"
             ],
-            "preparing_time": "30 min",
-            "calories": "320 calories"
+            "preparing_time": 30,
+            "calories": 320 
         },
         {
-            "recipe_image": "vegetable_pasta.jpg",
+            "recipe_image": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?t=st=1710549828~exp=1710553428~hmac=fbc1790fbdad6c104331de252b57f787c7b78d2fec2c41be30dc83b197bc1e65&w=1380",
             "recipe_id": 2,
             "recipe_name": "Vegetable Pasta",
             "short_description": "A hearty and healthy pasta dish loaded with fresh vegetables.",
@@ -25,11 +25,11 @@
                 "100 g bell peppers",
                 "50 ml olive oil"
             ],
-            "preparing_time": "25 min",
-            "calories": "290 calories"
+            "preparing_time": 25,
+            "calories": 290
         },
         {
-            "recipe_image": "beef_tacos.jpg",
+            "recipe_image": "https://img.freepik.com/free-photo/fresh-taco-with-grilled-beef-lemon-generative-ai_188544-12353.jpg?t=st=1710549895~exp=1710553495~hmac=7696ff31c6bcc8bfac5e931408ca8088c23bd0a404e475fbb82ecf289491aedb&w=1380",
             "recipe_id": 3,
             "recipe_name": "Beef Tacos",
             "short_description": "Tasty and filling tacos with a savory beef filling.",
@@ -40,26 +40,26 @@
                 "150 g cheddar cheese",
                 "100 ml salsa"
             ],
-            "preparing_time": "20 min",
-            "calories": "450 calories"
+            "preparing_time": 20,
+            "calories": 450
         },
         {
-            "recipe_image": "salmon_salad.jpg",
+            "recipe_image": "https://img.freepik.com/free-photo/rice-with-young-green-peas-shrimps-arugula-black-bowl-healthy-food-buddha-bowl_2829-6890.jpg?t=st=1710550425~exp=1710554025~hmac=1bb581ae085ca9f50531280a345558f307cc0d0818accb9cc8a2b9c303c4f19c&w=1380",
             "recipe_id": 4,
-            "recipe_name": "Salmon Salad",
-            "short_description": "A refreshing and nutritious salad with grilled salmon.",
+            "recipe_name": "Honey Garlic Shrimp",
+            "short_description": "A sweet and garlicky shrimp dish that's easy to make and packed with flavor.",
             "ingredients": [
-                "400 g salmon fillet",
-                "200 g mixed greens",
-                "100 g cherry tomatoes",
-                "50 g almonds",
-                "30 ml balsamic vinegar"
+                "500 g shrimp, peeled and deveined",
+                "4 cloves garlic, minced",
+                "30 ml honey",
+                "15 ml soy sauce",
+                "2 tablespoons olive oil"
             ],
-            "preparing_time": "15 min",
-            "calories": "350 calories"
-        },
+            "preparing_time": 15,
+            "calories": 300 
+        },        
         {
-            "recipe_image": "pancakes.jpg",
+            "recipe_image": "https://img.freepik.com/free-photo/high-angle-waffles-with-strawberries-yogurt_23-2148352302.jpg?t=st=1710550672~exp=1710554272~hmac=42aed1fa94104bf20c3984fca6d638543d6f0fbebf95c445820c31aa76a32652&w=1380",
             "recipe_id": 5,
             "recipe_name": "Pancakes",
             "short_description": "Fluffy pancakes perfect for a weekend breakfast.",
@@ -70,24 +70,25 @@
                 "50 g sugar",
                 "5 g baking powder"
             ],
-            "preparing_time": "20 min",
-            "calories": "280 calories"
+            "preparing_time": 20,
+            "calories": 280
         },
         {
-            "recipe_image": "curry_chicken.jpg",
-            "recipe_id": 6,
-            "recipe_name": "Curry Chicken",
-            "short_description": "A rich and flavorful chicken curry with a touch of spice.",
+            "recipe_image": "https://img.freepik.com/free-photo/top-close-up-view-chicken-with-herbs-chicken-legs-with-herbs-lemon-brown-plate-center-table_140725-110684.jpg?t=st=1710551073~exp=1710554673~hmac=c267d176fdb9537229cb28aa2e312ef83bdfbbc322e2d2bcaf838230a0fb95cd&w=1380",
+            "recipe_id": 8,
+            "recipe_name": "Garlic Butter Chicken",
+            "short_description": "Juicy chicken breasts cooked in a rich garlic butter sauce, perfect for a comforting meal.",
             "ingredients": [
-                "550 g chicken",
-                "200 ml coconut milk",
-                "100 g onion",
-                "10 g curry powder",
-                "5 g turmeric"
+                "4 chicken breasts",
+                "4 cloves garlic, minced",
+                "50 g unsalted butter",
+                "Salt and pepper to taste",
+                "Fresh parsley for garnish"
             ],
-            "preparing_time": "45 min",
-            "calories": "400 calories"
+            "preparing_time": 30,
+            "calories": 375 
         }
+        
     ]
 
 
